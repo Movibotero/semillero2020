@@ -1,0 +1,10 @@
+"Realizar un programa que pida cargar una fecha cualquiera, luego verificar si"
+"dicha fecha corresponde a navidad"
+
+dia=int(input("Ingrese dia: "))
+mes=int(input("Ingrese el mes: "))
+año=int(input("Ingrese el año: "))
+if dia==24 and mes==12:
+    print("Es navidad")
+else:
+    print("Es fecha diferente a navidad")
